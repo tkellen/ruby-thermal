@@ -24,4 +24,4 @@ BTPR880.print('192.168.1.200', 9100) do |print|
 end
 ```
 
-> Copyright (c) 2012 Tyler Kellen. See LICENSE for further details.
+> Copyright (c) 2013 Tyler Kellen. See LICENSE for further details.

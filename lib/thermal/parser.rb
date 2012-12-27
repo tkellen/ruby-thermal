@@ -17,7 +17,7 @@ module Thermal
       fragment.map do |node|
         output = ""
         if node.class == Nokogiri::XML::Text
-          output << node.content
+          output << node.content.gsub("\n","")
         elsif node.class == Nokogiri::XML::Element
           output << @device.startCode(node.name)
           output << traverse(node.children)
